@@ -48,11 +48,11 @@ To run this project locally:
 
 1.  **Clone the repository:**
     ```bash
-     git clone https://github.com/00Yila/profile-card.git
+     git clone https://github.com/00Yila/Multi-page-Profile.git
     ```
 2.  **Navigate to the directory:**
     ```bash
-    cd profile-card
+    cd Multi-page-Profile
     ```
 3.  **Run the project:**
     * Simply open the `index.html` file in your web browser.
