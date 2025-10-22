@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main data-testid="test-about-page" class="about-page">
+        <article class="profile-card">
+            <div class="user-info">
+                <header class="user-header">
+                    <h1 class="user-name">About Me</h1>
+                </header>
+                
+                <section data-testid="test-about-bio" aria-labelledby="bio-heading">
+                    <h2 id="bio-heading" class="interests-heading">Bio</h2>
+                    <p class="user-bio">
+                        My name is David-Pari K. Arabs. I'm a frontend developer passionate about building things for the web. I started this journey because I love the intersection of design and technology, and I'm excited to grow my skills in this internship.
+                    </p>
+                </section>
+
+                <section data-testid="test-about-goals" aria-labelledby="goals-heading">
+                    <h2 id="goals-heading" class="interests-heading">My Goals in This Program</h2>
+                    <ul class="interests-list">
+                        <li>To solidify my understanding of core web technologies (HTML, CSS, JS).</li>
+                        <li>To gain practical experience working with a team and on a real-world project.</li>
+                        <li>To master a modern JavaScript framework like React.</li>
+                        <li>To build a portfolio of high-quality projects.</li>
+                    </ul>
+                </section>
+
+                <section data-testid="test-about-confidence" aria-labelledby="confidence-heading">
+                    <h2 id="confidence-heading" class="interests-heading">Areas of Low Confidence</h2>
+                    <p class="user-bio">
+                        I'm still building confidence in complex JavaScript concepts, particularly asynchronous programming and state management. I also want to get better at backend integration and understanding how the full stack works together.
+                    </p>
+                </section>
+
+                <section data-testid="test-about-future-note" aria-labelledby="future-heading">
+                    <h2 id="future-heading" class="interests-heading">Note to My Future Self</h2>
+                    <p class="user-bio">
+                        Hey, future me! I hope you've stuck with it and haven't forgotten the excitement you feel right now. Remember how challenging some of these concepts were? Keep pushing, stay curious, and don't be afraid to ask for help.
+                    </p>
+                </section>
+
+                <section data-testid="test-about-extra" aria-labelledby="extra-heading">
+                    <h2 id="extra-heading" class="interests-heading">Extra Thoughts</h2>
+                    <p class="user-bio">
+                        I'm really grateful for this learning opportunity and excited to see what I can build and who I can meet during this internship.
+                    </p>
+                </section>
+
+            </div>
+        </article>
+    </main>
+
+</body>
+</html>
