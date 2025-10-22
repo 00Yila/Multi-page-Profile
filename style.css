@@ -6,13 +6,13 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding: 6rem 1rem 1rem; /* Updated padding for nav */
+    padding: 6rem 1rem 1rem; 
     margin: 0;
 }
 
 /* Enhanced focus visibility for accessibility */
 :focus-visible {
-    outline: 3px solid #3b82f6; /* A prominent blue outline */
+    outline: 3px solid #3b82f6;
     outline-offset: 2px;
     border-radius: 4px;
 }
@@ -221,9 +221,6 @@ body {
 }
 
 
-/* ============================
-   Stage 1 Styles (NEW)
-   ============================ */
 
 /* --- Navigation --- */
 .main-nav {
@@ -322,7 +319,7 @@ body {
     color: #ef4444;
     font-size: 0.875rem;
     margin-top: 0.5rem;
-    min-height: 1.25rem; /* Prevent layout shift */
+    min-height: 1.25rem; 
 }
 
 .form-success-message {
@@ -383,9 +380,9 @@ body {
     }
     
     .about-page .user-info {
-        grid-column: span 3 / span 3; /* Make about page full width */
+        grid-column: span 3 / span 3; 
     }
     .contact-page .profile-card {
-        max-width: 48rem; /* Constrain form width */
+        max-width: 48rem; /* 
     }
 }
